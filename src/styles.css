@@ -8,7 +8,7 @@
 
 h1 {
   color: #363636;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 600;
   text-align: center;
   padding-top: 15px;
@@ -16,7 +16,7 @@ h1 {
 
 h3 {
   color: #363636;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-align: center;
 }
@@ -83,14 +83,23 @@ tasks-list {
   color: #080;
 }
 
-@media (min-width: 320px) {
+@media (min-width: 320px) and (max-width: 800px) {
   .App {
     padding-bottom: 20px;
   }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+  
   .task-field {
-    width: 240px;
+    width: 200px;
   }
   .task-card {
-    width: 300px;
+    width: 280px;
   }
  }
